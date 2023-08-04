@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'client')));
 
 //test end point
 app.get('/healthcheck', (req,res) =>{
-    res.send('<h1>Hello world</h1>');
+    res.send('<h1>Hello world  ######</h1>');
 });
 
 app.get('/', (req, res) => {
